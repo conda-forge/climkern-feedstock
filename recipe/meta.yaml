@@ -1,5 +1,5 @@
 {% set name = "climkern" %}
-{% set version = "1.2" %}
+{% set version = "1.2.1" %}
 
 {% set python_min = "3.10" %}
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/climkern-{{ version }}.tar.gz
-  sha256: fd82ed28be958f036d7ab68553d90147379e27bb3857bc910a322824633f5105
+  sha256: 40eb76a1ab92254812b80d81ec8ee993417d087efefbdfb6e15242907ffa2b17
 
 build:
   noarch: python
